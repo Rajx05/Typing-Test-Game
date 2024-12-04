@@ -4,7 +4,7 @@
 #include <unistd.h> // using unistd for linux 
 #include <stdbool.h>
 #include <stdlib.h>
-#include </home/romeoraj/Desktop/C Prog/Typing Test/functions.c>
+#include <functions.c>
 
 
 

@@ -1,24 +1,28 @@
+#include <python3.10/Python.h>
 #include <stdio.h>
 #include <time.h>
 #include <unistd.h> // using unistd for linux 
 #include <stdbool.h>
 #include <stdlib.h>
-#include <functions.c>
+#include </home/romeoraj/Desktop/C Prog/Typing Test/functions.c>
 
 
 
 
 int main() {
+    //Py_Initialize();
     // Declare variables
     time_t start_time, end_time;
     double elapsed_time;
     char words[500];
     int cmd;
     bool exit = false;
-
+    
+    //Py_FinalizeEx();
     // Game Menu Loop
     do{
-    printf("welcome to typing test v1.0\n\n1 - start\n2 - show leaderboard\n3 - Quit\ninput:");
+    system("clear");
+    printf("welcome to typing skills v1.0\n\n1 - start\n2 - show leaderboard\n3 - Quit\ninput:");
     scanf("%d",&cmd);
 
     switch(cmd){
@@ -34,13 +38,6 @@ int main() {
         break;
     }
     }while(!exit);
-    
-    
-    
-    /* printf("enter words:");
-    fgets(words,sizeof(words),stdin); */
-    
-    
 
     // Calculate the elapsed time
     elapsed_time = difftime(end_time, start_time);

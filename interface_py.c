@@ -4,7 +4,7 @@
 
 /* 
     - Sample implementation of interface_py.h
-    - Using preix p_ for pointers.
+    - Using prefix p_ for pointers.
     - Sample usage of these functions is given in sample_inpy_functions.c
 */
 

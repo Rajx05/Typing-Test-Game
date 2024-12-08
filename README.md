@@ -1,6 +1,6 @@
 <h1 align = "center";>Typing-Test-Game</h1>
 
-A basic Typing Test Game on the **CLI(Command-Line-Interface)**.Made with **Python** and **C**
+A basic Typing Test Game on the **CLI(Command-Line-Interface)**.Made with **C** and **Python**
 
 ---
 

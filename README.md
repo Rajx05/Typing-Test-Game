@@ -1,10 +1,10 @@
 <h1 align = "center";>Typing-Test-Game</h1>
 
-A basic Typing Test Game on the **CLI(Command-Line-Interface)**.Made with ** Python** and ** C**
+A basic Typing Test Game on the **CLI(Command-Line-Interface)**.Made with **Python** and **C**
 
 ---
 
-##  Features
+## Features
 
 The Game provides multiple rounds with increasing difficulty.Players can connect to a central server to update their stats, retrieve a leaderboard.
 
@@ -17,13 +17,13 @@ The Game provides multiple rounds with increasing difficulty.Players can connect
 
 ---
 
-##  How It Works
-1. ** Server**:
+## How It Works
+1. **Server**:
    - Listens for incoming client connections on a specified port.
    - Processes commands from clients such as updating scores or fetching the leaderboard.
    - (other details to be added.)
 
-2. ** Client**:
+2. **Client**:
    - Uses an external API to fetch a dataset of sentences.
    - Conducts the Typing Test.
    - Connects to the server over a defined IP address and port.
@@ -32,7 +32,7 @@ The Game provides multiple rounds with increasing difficulty.Players can connect
 
 ---
 
-##  Disclaimer
+## Disclaimer
 
 #### The game is in developement stage,so bugs are expected.
 

@@ -38,5 +38,4 @@ int net_upload_score(player_details player);
      -2 if size is less than the actual users in leaderboard
       on memory insufficiency fills exactly "size" elements of the array*/
 int net_get_leaderboard(player_details *players, int size);
-
 #endif /* net_interface.h */
